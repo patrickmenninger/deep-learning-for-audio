@@ -15,7 +15,7 @@ Artifical neuron
     - Input (x1, x2, ...)
     - Weights for each input (dendrites)
     - Sum and activation (cell body)
-        - SUM: h (net input) = sum of all inputs times their weights
+        - SUM: h (net input) = sum of all inputs times their weights (dot product)
         - ACTIVATION: y = f(h) = activation function of the sum of all inputs times their weights
             - Sigmond function is the activation function one used in this demo
                 - 1/(1 + (e^-x))

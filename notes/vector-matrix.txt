@@ -1,0 +1,38 @@
+Vector
+    - Array of numbers
+    - a = [a1, a2, a3] = (vertical)
+    
+    - Scalar operations
+        - Vector and a number
+        - Addition / substrcation / multiplication / division
+
+    - Vector operations
+        - Two vectors must have the same dimension
+        - [a1, a2, a3] + [b1, b2, b3] = [a1 + b1, a2 + b2, a3 + b3]
+
+    - Dot product
+        - Two vectors, results in a Scalar
+        - [a1, a2, a3] * [b1, b2, b3] = a1b1 + a2b2 + a3b3
+
+Matrix
+    - Rectangular grid of numbers
+    - A = [[a11, a12], [a21, a22], [a31, a32]]
+    - Rows then columns (a12 = row 1, col 2)
+        - dimension is (row, col)
+    
+    - Row vector = (1, n) matrix
+    - Col vector = (n, 1) matrix
+
+    - Transpose: switch row and columns
+
+    - Scalar operations
+        - Addition / substrcation / multiplication / division of vector with a number
+            - 2 * [[a11, a12], [a21, a22]] = [[2a11, 2a12], [2a21, 2a22]]
+            - For addition,
+                - must be same dimension and add in position
+
+    - Matrix multiplication
+        - # of columns of the 1st matrix is equal to the # of rows of the 2nd
+            - (2, 3) * (3, 2) = (2, 2)
+
+        - [[1, 2], [3, 4], [5, 6]] * [[a, b], [c, d]] = [[1a + 2c, 1b + 2d], [3a + 4c, 3b + 4d], [5a + 6c, 5b + 6d]]
