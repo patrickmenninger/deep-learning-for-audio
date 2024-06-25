@@ -1,0 +1,64 @@
+Technologies
+    - Python
+    - TensorFlow
+        - Extensive deep learning library
+        - Uses Keras as a simple interface
+            - Allows complex neural networks to be made with minimal code
+        - Open source
+
+Content
+    - AI
+        - Encompasses all
+        - Intelligent agent = rational agent, one acting to acheive one's goals, given one's beliefs
+    - ML
+        - Subset of AI
+        - Computer performs task without using explicit instructions
+        - Learns from data
+            - Takes in examples and derives rules
+        - Paradigms
+            - Supervised learning
+                - Model trained with labeled data
+                - Data given to system where solution is annotated along with the data
+            - Unsupervised learning
+                - Model draws inferences from unstructured data 
+                - Data is passed to system without telling the system the solution
+            - Reinforcement learning
+                - Agent takes actions in virtual environment and learns through rewards
+        -Algorithms
+            - Logistic regression
+            - Linear regression
+            - Random forest
+            - K nearest neighbor
+            - Support vector machines
+            - Neural networks (NN)
+                - Input layer is the first layer
+                - Hidden layers process the information
+                - Output layer gets the inferences
+    - DL
+        - Subset of ML
+        - (Deep) neural networks
+        - >1 hidden layers
+        - Audio applications
+            - Speech recognition
+            - Voice-based emotion classification
+            - Noise recognition
+            - Muscal genre, instrusment, mood classification
+
+    - Traditional ML vs DL
+        - Traditional ML is more feature engineering
+            - Ideal for simple problems
+            - Extract features from the data
+            - Those features are passed to the ML algorthim and then it figures out the rules
+            - Small dataset
+            - Less computationally intensive
+        - DL is more end-to-end
+            - Ideal for complex problems
+            - Just pass in the row data directly to the ML algorithm
+            - Changes the weights of the features on its own
+            - Large dataset
+            - Very resource intensive
+
+    - Multilayer perceptron
+    - Convolutional neural networks (CNN's)
+    - Recurrent neural networks (RNN's)
+    - Generative adversarial networks (GAN's)
