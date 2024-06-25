@@ -1,0 +1,29 @@
+Biological neurons
+    - Dendrites
+        - Inputs, modules
+        - Get signals from other neurons and input to cell body
+    - Cell body
+        - Operatinal center of neuron
+        - does operation on signals
+    - Synaptic termianls
+        - Connected to other neurons
+
+    - 
+
+Artifical neuron
+    - Input -> Sum -> Activation -> Output
+    - Input (x1, x2, ...)
+    - Weights for each input (dendrites)
+    - Sum and activation (cell body)
+        - SUM: h (net input) = sum of all inputs times their weights
+        - ACTIVATION: y = f(h) = activation function of the sum of all inputs times their weights
+            - Sigmond function is the activation function one used in this demo
+                - 1/(1 + (e^-x))
+                - Bounded between 0 and 1
+                - Smooth, with x = 0 at y = 0.5
+    - Output
+Code
+    - function definition : def ____(): 
+    - zip function: enables to pack multiple lists into one index
+        - [a, b, c] | [x, y, z]
+        - zip(1, 2) = [(a, x), (b, y), (c, z)]
