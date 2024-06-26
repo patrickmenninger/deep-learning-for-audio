@@ -1,0 +1,31 @@
+Neural Network
+    - Single neuron works for linear problems, but real world problems are more complex
+    - Artifical Neural Networks can reproduce highly non-linear functions
+
+    - Components
+        - Neurons
+        - Input, hidden, output layers
+        - Weighted connections
+        - Activation function
+
+    - Multilayer perceptron
+        - The information travels left -> right
+        - It looks like the neural network you think of
+
+        - Computation
+            - Weights
+                - W^1 = [[w11, w12, w13], [w21, w22, w23]]
+                    - Weights of the first layer
+                - Each row is the different inputs
+                - Each column is a connection to a neuron
+            - Net inputs
+                - h^2 = xW
+                - h = [x1, x2] * [[w11, w12, w13], [w21, w22, w23]]
+                    - [[x1w11 + x2w21, x1w12 + x2w22, x1w13 + x2w23]] = [h1, h2, h3]
+            - Activations (output of neurons to next layer)
+                - h (vector) is passed to the activation function
+                - a = f(h^2)
+
+                - then...
+                    - h^3 = aW^2
+                    - y = f(h^3)
